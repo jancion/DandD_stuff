@@ -2,7 +2,7 @@
 Julian Ancion
 Trap generator for DND
 """
-
+import random
 def trapper(level, *argv):
     trap_list = ['gas', 'pit', 'monster', 'spikes', 'boulder', 'magic', 'arrow', 'room']
     gases = ['poison', 'sleeping', 'burning']
